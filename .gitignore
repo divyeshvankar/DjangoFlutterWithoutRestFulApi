@@ -1,0 +1,72 @@
+# Ignore Django project files
+/project/__pycache__/
+/project/*.py[cod]
+/project/db.sqlite3
+/project/media/
+
+# Ignore Flutter app code files
+/my_project/.dart_tool/
+/my_project/.idea/
+/my_project/build/
+/my_project/ios/Pods/
+/my_project/ios/Podfile.lock
+/my_project/ios/Runner.xcworkspace/
+
+# Ignore general files
+.DS_Store
+.env
+.vscode/
+.idea/
+*.iml
+*.log
+
+# Ignore package-specific files
+/node_modules/
+/.env
+/pubspec.lock
+
+# Flutter/Dart specific
+**/build/
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+/.idea/
+/.vscode/
+.flutter-plugins
+.flutter-plugins-dependencies
+.vs/
+doc/api/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+macos/Flutter/Flutter.podspec
+web/assets/
+web/packages/
+web/plugin/lib/
+windows/Flutter/ephemeral/.plugin_symlinks/
+windows/Flutter/flutter_export_environment.sh
+*.iml
+*.metadata
+*.stackdump
+
+# IntelliJ related
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+*.bak/
+*.swp
+
+
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media/
+
+# Ignore development server
+manage.py
