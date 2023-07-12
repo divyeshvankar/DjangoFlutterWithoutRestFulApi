@@ -70,3 +70,7 @@ media/
 
 # Ignore development server
 manage.py
+
+myworld
+
+config.py
